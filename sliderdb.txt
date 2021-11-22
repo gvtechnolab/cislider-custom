@@ -1,0 +1,19 @@
+slides
+	id
+	title
+	photo
+	group_id
+options
+	id
+	group_id
+	mode
+	captions
+	isCarousel
+	slideWidth
+	minSlides
+	maxSlides
+	moveSlides
+	slideMargin
+group
+	group_id
+	group_name
