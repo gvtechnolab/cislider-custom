@@ -30,7 +30,7 @@ if (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] != 'off') {
 	$ht = "http://";
 }
 $config['base_url'] = $ht.$_SERVER['HTTP_HOST'];
-$config['base_url'] .= preg_replace('@/+$@','',dirname($_SERVER['SCRIPT_NAME'])).'/';
+$config['base_url'] .= preg_replace('@/+$@','',dirname($_SERVER['SCRIPT_NAME'])).'/cislider-custom/';
 /*
 |--------------------------------------------------------------------------
 | Index File
